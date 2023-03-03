@@ -22,5 +22,5 @@ Pobierz repozytorium, w pliku tekstowym passwords.txt wpisz hasła(każde w nowe
 Uruchom plik validators.py
 
 ### Wykorzystane technologie:
-● Python 
+● Python <br>
 ● Zewnętrzne API "haveibeenpwnd"
