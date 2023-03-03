@@ -5,12 +5,12 @@ Jeśli hasło spełnia wszystkie wymogi dobrego hasła oraz jeżeli nie wyciekł
 to powinno zostać zapisane do osobnego pliku o nazwie bezpieczne.txt.
 
 #### Jak program sprawdza czy hasło wyciekło?
-<p>Program korzysta z zewnętrznego API "haveibeenpwnd". Hasła z Twojego pliku są haszowane korzystająć z algorytmu sha1.Następnie do serwisu 
+Program korzysta z zewnętrznego API "haveibeenpwnd". Hasła z Twojego pliku są haszowane korzystająć z algorytmu sha1.Następnie do serwisu 
 haveibeenpwnd wysyłamy pierwszych pięć haszów hasła. Wysyłamy im tylko 5 pierwszych znaków hasha, ponieważ wysłanie całego hasza może spowodować,
 że Twoje hasło wycieknie.
 Serwis odpowie wszystkimi końcówkami hashy jakie zna "haveibeenpwnd" wraz z informacją ile razy dane hasło wyciekło.
 Nastęnie porównujemy czy końcowka naszego hasza zgadza się, z którąś z usyskanych z API i uzysakujemy inforamcje czy sprawdzane hasło wyciekło.
-</p>
+
 #### Przyjęte wymogi bezpiecznego hasła:
 ● Musi mieć odpowiednią długość (minimum 8 znaków).<br>
 ● Musi zawierać przynajmniej jedną cyfrę.<br>
