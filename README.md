@@ -9,10 +9,10 @@ Program korzysta z zewnętrznego API "haveibeenpwnd". Hasła z Twojego pliku są
 haveibeenpwnd wysyłamy pierwszych pięć haszów hasła. Wysyłamy im tylko 5 pierwszych znaków hasha, ponieważ wysłanie całego hasza może spowodować,
 że Twoje hasło wycieknie.
 Serwis odpowie wszystkimi końcówkami hashy jakie zna "haveibeenpwnd" wraz z informacją ile razy dane hasło wyciekło.
-Nastęnie porównujemy czy końcowka naszego hasza zgadza się, z którąś z usykanych z API i uzysakujemy inforamcje czy sprawdzane hasło wyciekło.
+Nastęnie porównujemy czy końcowka naszego hasza zgadza się, z którąś z usyskanych z API i uzysakujemy inforamcje czy sprawdzane hasło wyciekło.
 
 ### Przyjęte wymogi bezpiecznego hasła:
-● Musi mieć odpowiednią długość (minimum 8 znaków).
-● Musi zawierać przynajmniej jedną cyfrę.
-● Musi zawierać przynajmniej jeden znak specjalny.
-● Musi zawierać wielkie i małe litery
+● Musi mieć odpowiednią długość (minimum 8 znaków).<br>
+● Musi zawierać przynajmniej jedną cyfrę.<br>
+● Musi zawierać przynajmniej jeden znak specjalny.<br>
+● Musi zawierać wielkie i małe litery.<br>
