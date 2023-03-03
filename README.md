@@ -20,3 +20,7 @@ Nastęnie porównujemy czy końcowka naszego hasza zgadza się, z którąś z us
 #### Jak uruchomić program?
 Pobierz repozytorium, w pliku tekstowym passwords.txt wpisz hasła(każde w nowej linii).
 Uruchom plik validators.py
+
+### Wykorzystane technologie:
+● Python 
+● Zewnętrzne API "haveibeenpwnd"
