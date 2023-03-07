@@ -7,7 +7,7 @@ Jeśli hasło spełnia wszystkie wymogi "dobrego hasła" i nie wyciekło ani raz
 Program korzysta z zewnętrznego API "haveibeenpwnd". Program haszuje hasło za pomocą algorytmu sha1.Następnie do serwisu 
 haveibeenpwnd wysyła pierwsze pięć haszów hasła. Tylko 5, ponieważ wysłanie całego hasza może spowodować,że hasło wycieknie.
 Serwis odpowie wszystkimi końcówkami hashy jakie zna "haveibeenpwnd" wraz z informacją ile razy dane hasło wyciekło.
-Nastęnie porównuje czy końcowka naszego hasza zgadza się, z którąś z usyskanych z API. Ostatecznie otrzymijemy inforamcję czy sprawdzane hasło wyciekło.
+Nastęnie program porównuje czy końcowka naszego hasza zgadza się, z którąś z usyskanych z API. Ostatecznie otrzymijemy inforamcję czy sprawdzane hasło zostało wykradzione.
 
 #### Przyjęte wymogi bezpiecznego hasła:
 ● Musi mieć odpowiednią długość (minimum 8 znaków).<br>
